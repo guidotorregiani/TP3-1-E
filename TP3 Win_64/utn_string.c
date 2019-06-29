@@ -8,18 +8,14 @@ int validarLetra (char letras[])
 {
     int ret=0;
     int i=0;
-    int CantidadLetras;
-    CantidadLetras=strlen(letras);
-    while (i<CantidadLetras && ret==0)
+
+    while(letras[i]!='\0')
     {
-        if ((letras[i]!=' ')&&(letras[i]<'a'||letras[i]>'z')&&(letras[i]<'A'||letras[i]>'Z'))
-        {
-            i++;
-        }
-        else
+        if((letras[i]!=' ')&&(letras[i]<'a'||letras[i]>'z')&&(letras[i]<'A'||letras[i]>'Z'))
         {
             ret=-1;
         }
+        i++;
     }
     return ret;
 }
@@ -49,15 +45,13 @@ int getString(char *pResult, char *pMsg, char *pMsgError, int min, int max, int 
 {
     int ret=-1;
     char arrayAuxiliar[4096];
+
     while(intentos>0)
     {
-        printf(pMsg);
-        fflush(stdin); //LIMPIA BUFFER WINDOWS
-        //__fpurge(stdin); //LIMPIA BUFFER LINUX
-        fgets(arrayAuxiliar,sizeof(arrayAuxiliar),stdin);
-        arrayAuxiliar[strlen(arrayAuxiliar)-1] = '\0';
+        fflush(stdin);
+        simpleGetString(pMsg,arrayAuxiliar);
 
-        if(pResult != NULL && strlen(arrayAuxiliar) >= min && strlen(arrayAuxiliar) <= max && validarLetra(arrayAuxiliar)==0)
+        if(arrayAuxiliar!=NULL)
         {
             strncpy(pResult,arrayAuxiliar,max);
             ret=0;
@@ -87,12 +81,12 @@ int getStringNumeros(char* pString, char* msg, char* msgE,int reintentos)
                 strncpy(pString,bufferStr,sizeof(bufferStr));
                 retorno=0;
             }
-        }
-        else
-        {
-            printf(msgE);
-            retorno=-1;
-            reintentos--;
+            else
+            {
+                printf(msgE);
+                retorno=-1;
+                reintentos--;
+            }
         }
     }
     return retorno;
@@ -142,7 +136,7 @@ void simpleGetString(char mensaje[],char input[])
 {
     printf("%s",mensaje);
     fflush(stdin);
-    scanf ("%[^\n]s", input);
+    scanf ("%[^\n]", input);
 }
 
 int isNum(char str[])

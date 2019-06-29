@@ -75,9 +75,9 @@ int controller_addEmployee(LinkedList* pArrayListEmployee)
     if(pArrayListEmployee!=NULL)
     {
         if((!getStringNumeros(bufferId,"Ingrese ID:","campo ingresado de manera incorrecta\n",3))
-         &&(!getString(bufferNombre,"Ingrese Nombre: ","campo ingresado de manera incorrecta",1,128,2))
-         &&(!getStringNumeros(bufferHorasTrabajadas,"Ingrese Horas Trabajadas(int): ","campo ingresado de manera incorrecta",3))
-         &&(!getStringNumeros(bufferSueldo,"Ingrese Sueldo(int): ","campo ingresado de manera incorrecta",3)))
+         &&(!getString(bufferNombre,"Ingrese Nombre: ","campo ingresado de manera incorrecta\n",1,128,2))
+         &&(!getStringNumeros(bufferHorasTrabajadas,"Ingrese Horas Trabajadas(int): ","campo ingresado de manera incorrecta\n",3))
+         &&(!getStringNumeros(bufferSueldo,"Ingrese Sueldo(int): ","campo ingresado de manera incorrecta\n",3)))
         {
             pEmployee=employee_newParametros(bufferId,bufferNombre,bufferHorasTrabajadas,bufferSueldo);
             if(pEmployee!=NULL)
