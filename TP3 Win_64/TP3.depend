@@ -1,0 +1,189 @@
+# depslib dependency file v1.0
+1533062952 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/Employee.c
+
+1533063050 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1532354323 /home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/LinkedList.h
+
+1533062926 /home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/Employee.h
+
+1533063080 source:/home/mauro/Descargas/Practica_Pair_v1.2/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533062952 source:/home/mauro/Descargas/TP3/Linux_64/Employee.c
+
+1533066103 source:/home/mauro/Descargas/TP3/Linux_64/main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1532354323 /home/mauro/Descargas/TP3/Linux_64/LinkedList.h
+
+1533066103 /home/mauro/Descargas/TP3/Linux_64/Employee.h
+
+1533063080 source:/home/mauro/Descargas/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533145792 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1533118898 /home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/LinkedList.h
+
+1533118898 /home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Employee.h
+
+1533118898 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/Employee.c
+
+1533145890 source:/home/mauro/Descargas/TP3-20180801T173619Z-001/TP3/Linux_64/parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1561562564 source:c:\users\guido\desktop\tp3\win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Controller.h"
+	"parser.h"
+	"utn_string.h"
+
+1533133022 c:\users\guido\desktop\tp3\win_64\linkedlist.h
+
+1561558785 c:\users\guido\desktop\tp3\win_64\employee.h
+
+1533133022 c:\users\guido\desktop\tp3\win_64\controller.h
+
+1533133022 c:\users\guido\desktop\tp3\win_64\parser.h
+
+1561560876 c:\users\guido\desktop\tp3\win_64\utn_string.h
+
+1561561288 source:c:\users\guido\desktop\tp3\win_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"utn_string.h"
+
+1561562564 source:c:\users\guido\desktop\tp3\win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"utn_string.h"
+
+1561561692 source:c:\users\guido\desktop\tp3\win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1561562524 source:c:\users\guido\desktop\tp3\win_64\utn_string.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Utn_String.h"
+
+1561800359 source:d:\tp1-master\tp3\tp3 win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Controller.h"
+	"parser.h"
+	"utn_string.h"
+
+1561568255 d:\tp1-master\tp3\tp3 win_64\linkedlist.h
+
+1561568255 d:\tp1-master\tp3\tp3 win_64\employee.h
+
+1561568255 d:\tp1-master\tp3\tp3 win_64\controller.h
+
+1561568255 d:\tp1-master\tp3\tp3 win_64\parser.h
+
+1561568255 d:\tp1-master\tp3\tp3 win_64\utn_string.h
+
+1561800153 source:d:\tp1-master\tp3\tp3 win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"utn_string.h"
+
+1561800208 source:d:\tp1-master\tp3\tp3 win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1561800443 source:d:\tp1-master\tp3\tp3 win_64\utn_string.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Utn_String.h"
+
+1561801652 source:c:\users\guido\desktop\tp1-master\tp3\tp3 win_64\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+	"Controller.h"
+	"parser.h"
+	"utn_string.h"
+
+1561568255 c:\users\guido\desktop\tp1-master\tp3\tp3 win_64\linkedlist.h
+
+1561568255 c:\users\guido\desktop\tp1-master\tp3\tp3 win_64\employee.h
+
+1561568255 c:\users\guido\desktop\tp1-master\tp3\tp3 win_64\controller.h
+
+1561568255 c:\users\guido\desktop\tp1-master\tp3\tp3 win_64\parser.h
+
+1561568255 c:\users\guido\desktop\tp1-master\tp3\tp3 win_64\utn_string.h
+
+1561800617 source:c:\users\guido\desktop\tp1-master\tp3\tp3 win_64\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Employee.h"
+	"utn_string.h"
+
+1561801574 source:c:\users\guido\desktop\tp1-master\tp3\tp3 win_64\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+	"utn_string.h"
+
+1561802699 source:c:\users\guido\desktop\tp1-master\tp3\tp3 win_64\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Employee.h"
+
+1561800443 source:c:\users\guido\desktop\tp1-master\tp3\tp3 win_64\utn_string.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Utn_String.h"
+
